@@ -2,68 +2,58 @@
 
 <?php include_once('../includes/nav.php'); ?>
 
-<div class="main-search-active">
-    <div class="sidebar-search-icon">
-        <button class="search-close"><span class="icon-close"></span></button>
-    </div>
-    <div class="sidebar-search-input">
-        <form action="/search" method="get" class="search-bar" role="search">
-            <div class="form-search">
-                <input type="search" name="q" value="" placeholder="Search our store" id="search" class="input-text"
-                    aria-label="Search our store">
-                <button class="search-btn" type="submit">
-                    <i class="icon-magnifier"></i>
-                </button>
-            </div>
-        </form>
-    </div>
-</div>
-
-<div class="breadcrumb-area section-ptb">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h2 class="breadcrumb-title">wishlist</h2>
-                <!-- breadcrumb-list start -->
-
-                <nav class="" role="navigation" aria-label="breadcrumbs">
-                    <ul class="breadcrumb-list">
-
-                        <li class="breadcrumb-item">
-                            <a href="/" title="Back to the home page">Home</a>
-                        </li>
-                        <li class="breadcrumb-item">
+<div class="page-container drawer-page-content" id="PageContainer">
+    <main class="main-content js-focus-hidden" id="MainContent" role="main" tabindex="-1">
+        <div class="page-width">
+            <div class="grid">
+                <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+                    <div class="section-header text-center">
+                        <h1>Contact Us</h1>
+                    </div>
 
 
 
-                            <span>wishlist</span>
+                    <div class="contact-form form-vertical">
+                        <form method="post" action="/contact#ContactForm" id="ContactForm" accept-charset="UTF-8"
+                            class="contact-form"><input type="hidden" name="form_type" value="contact"><input
+                                type="hidden" name="utf8" value="✓">
 
 
-                        </li>
-                    </ul>
-                </nav>
 
 
-                <!-- breadcrumb-list end -->
-            </div>
-        </div>
-    </div>
-</div>
 
-<main role="main">
-    <div class="customer-page theme-default-margin">
-        <div class="container">
-            <div class="wishlist-page">
+                            <div class="grid grid--half-gutters">
+                                <div class="grid__item medium-up--one-half">
+                                    <label for="ContactForm-name">Name</label>
+                                    <input type="text" id="ContactForm-name" name="contact[Name]" value="">
+                                </div>
+                                <div class="grid__item medium-up--one-half">
+                                    <label for="ContactForm-email">Email <span aria-hidden="true">*</span></label>
+                                    <input type="email" id="ContactForm-email" name="contact[email]" autocorrect="off"
+                                        autocapitalize="off" value="" aria-required="true">
+                                </div>
+                            </div>
 
-                <div class="login-wishlist">
-                    <h2 class="">Please login your account</h2>
-                    <a class="theme-default-button" href="/account/login">Log in</a>
+                            <label for="ContactForm-phone">Phone Number</label>
+                            <input type="tel" id="ContactForm-phone" name="contact[Phone Number]" pattern="[0-9\-]*"
+                                value="">
+
+                            <label for="ContactForm-message">Message</label>
+                            <textarea rows="10" id="ContactForm-message" name="contact[Message]"></textarea>
+
+                            <input type="submit" class="btn" value="Send">
+
+                            <input name="recaptcha-v3-token" type="hidden"
+                                value="03AGdBq27OrpLnkDS_8wUr5NirtPuOGt0QiV2tMo2vg_gk1iVR147vOXRr4ZlM3PK-85TX6SHwe77-77YupiU8mC6vcZj03bhaxm_kA67OblwJYCU0jSqmBPbAhW2YMMbMDe_hb0RtiK9yg9Si-fL3DNSE857dz3CVUSW0duNCz75gJNDXI9RrMAvtztOxvG1wpBIdlSogItdvdeaVirdNKDkEWuuMoHwXs7RMVZHp67KrSFpMONyn4q6AHubR79JX0bf3OXZ8cBMvEgcRTprsSQwpK2IXoQrm6tPPDSoqv5ZWTv6slpDJUCbPf8tsV3Ojzx6bQWvjPimPTAE9hX7Fd5lAVqEoj2fTc60cpLYxbO1RSpgWynvaNjwY0oK97LsiI30z2XoDfkpsA3a4skKaCcz3sHFLf7Za63K-34fH0dk8BNPfwQn0OccgRA9mqwtR9AGVfts-LBlv">
+                        </form>
+                    </div>
                 </div>
-
             </div>
         </div>
-    </div>
 
-</main>
+    </main>
 
-<?php include_once('../includes/footer.php'); ?>
+    <?php include_once('../includes/footer.php'); ?>
+</div>
+
+<?php include_once('../includes/modals.php'); ?>

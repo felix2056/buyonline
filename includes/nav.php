@@ -141,7 +141,7 @@
 
 
               <li>
-                <a href="/collections/all" class="site-nav__link site-nav__link--main">
+                <a href="/pages/catalog.php" class="site-nav__link site-nav__link--main">
                   <span class="site-nav__label">Catalog</span>
                 </a>
               </li>
@@ -152,7 +152,7 @@
 
 
               <li>
-                <a href="/pages/contact-us" class="site-nav__link site-nav__link--main">
+                <a href="/pages/contact-us.php" class="site-nav__link site-nav__link--main">
                   <span class="site-nav__label">Contact Us</span>
                 </a>
               </li>
@@ -163,7 +163,7 @@
 
 
               <li>
-                <a href="/policies/privacy-policy" class="site-nav__link site-nav__link--main">
+                <a href="/pages/privacy-policy.php" class="site-nav__link site-nav__link--main">
                   <span class="site-nav__label">Privacy Policy</span>
                 </a>
               </li>
@@ -174,7 +174,7 @@
 
 
               <li>
-                <a href="/policies/refund-policy" class="site-nav__link site-nav__link--main">
+                <a href="/pages/refund-policy.php" class="site-nav__link site-nav__link--main">
                   <span class="site-nav__label">Refund Policy</span>
                 </a>
               </li>
@@ -185,7 +185,7 @@
 
 
               <li>
-                <a href="/policies/shipping-policy" class="site-nav__link site-nav__link--main">
+                <a href="/pages/shipping-policy.php" class="site-nav__link site-nav__link--main">
                   <span class="site-nav__label">Shipping Policy</span>
                 </a>
               </li>
@@ -196,7 +196,7 @@
 
 
               <li>
-                <a href="/policies/terms-of-service" class="site-nav__link site-nav__link--main">
+                <a href="/pages/terms-of-service.php" class="site-nav__link site-nav__link--main">
                   <span class="site-nav__label">Terms of Service</span>
                 </a>
               </li>

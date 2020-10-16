@@ -69,7 +69,7 @@
 
               <div class="grid-view-item product-card">
                 <a class="grid-view-item__link grid-view-item__image-container full-width-link"
-                  href="/collections/frontpage/products/fantasy-van-velocity-ear-pods">
+                  href="/products/single.php?product=1">
                   <span class="visually-hidden">Fantasy Van Velocity Ear Pods</span>
                 </a>
 
@@ -171,7 +171,7 @@
 
               <div class="grid-view-item product-card">
                 <a class="grid-view-item__link grid-view-item__image-container full-width-link"
-                  href="/collections/frontpage/products/smart-puppy-robot">
+                  href="/products/single.php?product=2">
                   <span class="visually-hidden">Smart Puppy Robot</span>
                 </a>
 
